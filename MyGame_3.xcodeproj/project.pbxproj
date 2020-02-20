@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5205E88B8083203B7C6C5DE9 /* Pods_MyGame_3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F86791A5FB0C5EAFB1CECAD /* Pods_MyGame_3Tests.framework */; };
 		904D635C23D4AF8300F23164 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904D635B23D4AF8300F23164 /* AudioToolbox.framework */; };
 		905207A7234E246300723E06 /* TheFatRat - Unity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 905207A6234E246300723E06 /* TheFatRat - Unity.mp3 */; };
 		90E2323022806CDF00C69BE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E2322F22806CDF00C69BE9 /* AppDelegate.swift */; };
@@ -19,7 +18,6 @@
 		90E2325022806CE000C69BE9 /* MyGame_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E2324F22806CE000C69BE9 /* MyGame_3UITests.swift */; };
 		90E2325E22806D0F00C69BE9 /* Objective_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E2325D22806D0F00C69BE9 /* Objective_1.swift */; };
 		90E2326022806D2900C69BE9 /* Objective_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E2325F22806D2900C69BE9 /* Objective_2.swift */; };
-		D39E55514B83CCA6AC0E2092 /* Pods_MyGame_3_MyGame_3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3033291C07E73530E6234AAA /* Pods_MyGame_3_MyGame_3UITests.framework */; };
 		D86157440D90CBD61119B7DA /* Pods_MyGame_3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DBBD30278673DBDD7DAFC6 /* Pods_MyGame_3.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,11 +40,9 @@
 
 /* Begin PBXFileReference section */
 		0C5E039571A8601D632CCDB4 /* Pods-MyGame_3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGame_3Tests.release.xcconfig"; path = "Target Support Files/Pods-MyGame_3Tests/Pods-MyGame_3Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3033291C07E73530E6234AAA /* Pods_MyGame_3_MyGame_3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyGame_3_MyGame_3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E7FA475866AAE806E0178F /* Pods-MyGame_3-MyGame_3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGame_3-MyGame_3UITests.release.xcconfig"; path = "Target Support Files/Pods-MyGame_3-MyGame_3UITests/Pods-MyGame_3-MyGame_3UITests.release.xcconfig"; sourceTree = "<group>"; };
 		68851BA6B722FB3038FB2CDD /* Pods-MyGame_3-MyGame_3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGame_3-MyGame_3UITests.debug.xcconfig"; path = "Target Support Files/Pods-MyGame_3-MyGame_3UITests/Pods-MyGame_3-MyGame_3UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		727A685E51CC24B02CEF6567 /* Pods-MyGame_3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGame_3Tests.debug.xcconfig"; path = "Target Support Files/Pods-MyGame_3Tests/Pods-MyGame_3Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7F86791A5FB0C5EAFB1CECAD /* Pods_MyGame_3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyGame_3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		904D635923D4AF8200F23164 /* MyGame_3Debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyGame_3Debug.entitlements; sourceTree = "<group>"; };
 		904D635B23D4AF8300F23164 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		905207A6234E246300723E06 /* TheFatRat - Unity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TheFatRat - Unity.mp3"; sourceTree = "<group>"; };
@@ -84,7 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5205E88B8083203B7C6C5DE9 /* Pods_MyGame_3Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +87,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D39E55514B83CCA6AC0E2092 /* Pods_MyGame_3_MyGame_3UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,8 +98,6 @@
 			children = (
 				904D635B23D4AF8300F23164 /* AudioToolbox.framework */,
 				B6DBBD30278673DBDD7DAFC6 /* Pods_MyGame_3.framework */,
-				3033291C07E73530E6234AAA /* Pods_MyGame_3_MyGame_3UITests.framework */,
-				7F86791A5FB0C5EAFB1CECAD /* Pods_MyGame_3Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -177,7 +169,6 @@
 				727A685E51CC24B02CEF6567 /* Pods-MyGame_3Tests.debug.xcconfig */,
 				0C5E039571A8601D632CCDB4 /* Pods-MyGame_3Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -604,6 +595,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HABS9G2G5;
 				INFOPLIST_FILE = MyGame_3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -623,6 +615,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HABS9G2G5;
 				INFOPLIST_FILE = MyGame_3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
